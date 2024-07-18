@@ -1,40 +1,14 @@
-# [SDF05] CSS Magic Buttons
+*HTML*
+I did not make any changes in the HTML file
 
-Get ready to create animated buttons using CSS! This project focuses on creating three unique animated buttons using CSS. With this challenge, you'll dive into the world of CSS animations, transitions, and interactivity.
+*CSS*
+#Button1
+For this button, I just added a box shadow for when someone hovers over it. I also changed the border's radius when the hovering happens so that it assumes a more round shape. 
+#Button2
+For this one, I wanted to make the button wider whenever someone clicked on it. I didn't want my transition to be instant, therefore I added a transion time. I also changed the font weight and size so that it is not too tiny as compared to the widening "box".
+#Button3
+Lastly, I wanted this button to rotate when I hover over it, and also just have background gradient. I added an animation for rotation, and how long it should take. It rotaes 360 degrees, and goes back to where it was before it started rotating as soon as it isn't hovered over anymore. 
 
-## Learning Goals
+*SUBMISSION*
+I saved the file with my student number, classcode, group, name + surname and the code for this project, which is SDF05.
 
-By completing this project, you will learn to:
-
-- Design engaging button animations with CSS.
-- Master the use of CSS transitions and animations for interactive effects.
-
-![alt text](./images/image.png)
-
-## Project Overview
-
-### Time Estimate: 2 hours
-
-## What you Need to Do:
-
-1. **Starter Code**: Clone the starter code from GitHub for your project. The HTML structure is provided, and you'll focus on adding styles in the `style.css` file.
-
-    - Starter code can be found here: https://github.com/CodeSpace-Academy/Module_5R_StudentNo_Classcode_Group_Name-Surname_SDF05R
-
-2. **Write your CSS Styles**: Create your animations from scratch. Need a hint of inspiration? You're welcome to go through our curated buttons for inspiration: [View Reference](https://codepen.io/codespace-academy/pen/xxmWrjX). 
-
-3. **Prepare Your Repository**: 
-    - Save all chanes and update your GitHub repository with the final versions of all files.
-    - Include a `README.md` file that outlines the project, your design choices, and any notes on challenges you faced or features you're particularly proud of.
-    - Ensure your repository is set to public so it can be accessed by your code coach.
-
-4. **Submit on LMS**:
-    - Submit the link to your GitHub repository on the LMS under the project tab.
-
-Embark on this CSS journey to transform simple buttons into interactive, animated elements. Let your creativity shine and enjoy the process of bringing static elements to life!
-
-
-## Submission Guidelines
-- Submit the link to your GitHub repository on the LMS under the project tab.
-
-Embark on this CSS journey to transform simple buttons into interactive, animated elements. Let your creativity shine and enjoy the process of bringing static elements to life!
