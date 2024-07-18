@@ -73,9 +73,10 @@ font-size:large;
 }
 .btn-3 {
 background-color: deeppink;
-transition: background-image 4s, box-shadow 0.5s, transform 0.3s;
+transition: background-image 4s, transform 3s;
 }
 .btn-3:hover {
-animation:rotate 3s;
+animation:rotate;
 background-image: linear-gradient(rgba(0, 0, 255, 0.409),rgba(255, 192, 203, 0.628),rgba(128, 0, 128, 0.404));
+transform:rotate(360deg)
 }
