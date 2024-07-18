@@ -59,17 +59,25 @@ p {
 background-color: rgba(114, 196, 247, 0.664);
 box-shadow: 0 10px 10px rgba(0, 0, 255, 0.653);
 background-image: -o-repeating-linear-gradient(lightgray,skyblue,rgba(128, 0, 128, 0.267));
+animation:bounce 3s;
 }
 .btn-2 {
     transition: width 1s;
+    background-color: rgb(101, 218, 51);
 }
+
+@keyframes fadeIn {
+    from { opacity: 0.54; }
+    to { opacity: 1; }
+  }
 .btn-2:active {
 border-style: dashed;
 width:200px;
 font-weight: bolder;
 font-size:large;
-
+animation: fadeIn 3s ease-in-out;
 }
+
 .btn-3 {
 background-color: deeppink;
 transition: background-image 4s, transform 3s;
