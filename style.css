@@ -51,4 +51,14 @@ p {
     outline: none;
 }
 
-/* Add your custom styles for btn-1, btn-2, and btn-3 */
+.btn-1:hover {
+background:rgb(240, 236, 8);
+}
+.btn-2:active {
+font-weight: bolder;
+font-family: 'Times New Roman', Times, serif;
+}
+.btn-3:not(:hover) {
+background-image: linear-gradient(rgba(0, 0, 255, 0.409),rgba(255, 192, 203, 0.628),rgba(128, 0, 128, 0.404));
+position:-webkit-sticky;
+}
