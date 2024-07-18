@@ -60,12 +60,12 @@ p {
 box-shadow: 5px 5px rgba(0, 0, 255, 0.653);
 background-image: -o-repeating-linear-gradient(lightgray,skyblue,rgba(128, 0, 128, 0.267));
 animation-duration: 2s;
-color:black;
 }
 .btn-2 {
     transition: width 1s;
 }
 .btn-2:active {
+border-style: dashed;
 width:200px;
 font-weight: bolder;
 font-size:large;
