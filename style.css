@@ -62,9 +62,7 @@ background-image: -o-repeating-linear-gradient(lightgray,skyblue,rgba(128, 0, 12
 animation-duration: 2s;
 color:black;
 }
-
 .btn-2 {
-    transparent;
     transition: width 1s;
 }
 .btn-2:active {
