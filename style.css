@@ -54,12 +54,11 @@ p {
 .btn-1 {
     background-color: rgb(0, 0, 128);
     color:whitesmoke;
-    font-size:medium;
 }
 .btn-1:hover {
-box-shadow: 5px 5px rgba(0, 0, 255, 0.653);
+background-color: rgba(114, 196, 247, 0.664);
+box-shadow: 0 10px 10px rgba(0, 0, 255, 0.653);
 background-image: -o-repeating-linear-gradient(lightgray,skyblue,rgba(128, 0, 128, 0.267));
-animation-duration: 2s;
 }
 .btn-2 {
     transition: width 1s;
